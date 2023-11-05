@@ -1,12 +1,38 @@
-.header_icon{
-    background-color: blue;
-    border-radius: 50%;
-    padding: 5px;
-    color: yellow;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.header_title{
-    display:flex;
-    display: inline;
-    padding-left: 10px;
-    font-size: 50px;
+.header_name {
+  padding: 10px 100px 10px 100px;
+  height: 30px;
+}
+.header_icon {
+  font-size: 15px;
+  background-color: navy;
+  width: 3%;
+  float: left;
+  border-radius: 100%;
+  text-align: center;
+  height: inherit;
+  padding: 6px 6px 6px 8px;
+  color: #fdc800;
+}
+.header_list li {
+  display: inline;
+  margin-right: 20px;
+}
+.header_list a {
+  text-decoration: none;
+  color: black;
+}
+.header_list ul {
+  padding-inline-start: 110px;
+  margin: 15px 0 10px 0;
+}
+
+.carousel {
+  background-size: cover;
+  background-image: url(../img/2.jpg);
 }
