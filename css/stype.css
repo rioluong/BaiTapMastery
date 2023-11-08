@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+.clear {
+  clear: both;
+}
 .header_name {
   padding: 10px 100px 10px 100px;
   height: 30px;
@@ -19,6 +22,9 @@
   padding: 6px 6px 6px 8px;
   color: #fdc800;
 }
+.header_title {
+  padding: 0px 0px 0px 40px;
+}
 .header_list li {
   display: inline;
   margin-right: 20px;
@@ -29,10 +35,40 @@
 }
 .header_list ul {
   padding-inline-start: 110px;
-  margin: 15px 0 10px 0;
+  margin: 23px 0px 16px 5px;
+}
+.banner img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
-.carousel {
-  background-size: cover;
-  background-image: url(../img/2.jpg);
+.welcome {
+  padding: 50px;
+}
+.welcome_content {
+  width: 50%;
+}
+.welcome_content h2 {
+  padding: 20px 0;
+}
+.welcome_readmore {
+  margin-top: 40px;
+  width: 20%;
+  padding: 15px 20px 10px 20px;
+  background-color: #fdc800;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.welcome_readmore :hover {
+  color: white;
+}
+.welcome_img {
+  width: 170px;
+  float: right;
+  position: relative;
+  left: 200px;
+  bottom: 40px;
 }
