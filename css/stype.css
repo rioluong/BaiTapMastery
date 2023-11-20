@@ -162,6 +162,8 @@
   width: 90%;
   height: 140px;
   padding: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+  padding-bottom: 2px;
 }
 .news_content {
   width: inherit;
