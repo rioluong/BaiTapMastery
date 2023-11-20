@@ -187,8 +187,12 @@
 }
 .news_button {
   float: right;
+  cursor: pointer;
 }
-.news_left_viewall {
+.news_button:hover {
+  color: white;
+}
+.news_button .button_left {
   background-color: #fdc800;
   border-radius: 5px;
   font-weight: bold;
@@ -255,6 +259,10 @@
 .news_event_button {
   float: right;
   margin-right: 110px;
+  cursor: pointer;
+}
+.news_event_button:hover {
+  color: white;
 }
 .news_event_button .button_right {
   background-color: #fdc800;
