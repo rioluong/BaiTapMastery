@@ -1,8 +1,8 @@
 # BaiTapMastery
 
--Nhóm 1 ** Lương Đình Khánh Sang**
--Lớp CyperSoft BC 61
--Dealine 20/11/2023
+- Nhóm 1 ** Lương Đình Khánh Sang **
+- Lớp CyperSoft BC 61
+- Dealine 20/11/2023
 
 ## Table công việc
 
